@@ -1,0 +1,32 @@
+#gameArea {
+  width: 400px;
+  height: 600px;
+  background-color: lightblue;
+  position: relative;
+  overflow: hidden;
+}
+#basket {
+  width: 50px;
+  height: 30px;
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+  left: 175px;
+}
+.falling-item {
+  width: 20px;
+  height: 20px;
+  background-color: gold;
+  position: absolute;
+  top: 0;
+}
+#score,
+#lives {
+  position: absolute;
+  top: 10px;
+  font-size: 18px;
+  color: black;
+}
+#lives {
+  right: 10px;
+}
